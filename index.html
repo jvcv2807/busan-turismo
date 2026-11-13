@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit Busan (부산) — Guia Oficial de Turismo & Viagem</title>
+  <meta name="description" content="Descubra Busan, a capital de verão da Coreia do Sul. Praias exuberantes, templos costeiros, o vibrante Mercado Jagalchi e a Aldeia Cultural de Gamcheon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER & NAVEGAÇÃO -->
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="Visit Busan, início">
+        <span>Busan</span>
+        <span class="brand-badge">부산</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre a Cidade</a></li>
+        <li><a href="#atracoes">Atrações</a></li>
+        <li><a href="#gastronomia">Gastronomia</a></li>
+        <li><a href="#roteiro">Roteiro 3 Dias</a></li>
+        <li><a href="#calculadora">Conversor & Custo</a></li>
+        <li><a href="#dicas">Dicas Úteis</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+          <span id="themeIcon">🌙</span>
+        </button>
+        <button id="menuBtn" class="menu-btn" aria-label="Abrir menu mobile" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="#sobre">Sobre a Cidade</a>
+      <a href="#atracoes">Atrações</a>
+      <a href="#gastronomia">Gastronomia</a>
+      <a href="#roteiro">Roteiro 3 Dias</a>
+      <a href="#calculadora">Conversor & Custo</a>
+      <a href="#dicas">Dicas Úteis</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-pill">
+          <span>🌊</span> Guia de Viagem Oficial • Coreia do Sul
+        </div>
+        <h1 class="hero-title">Onde o mar abraça a <span>alma da Coreia.</span></h1>
+        <p class="hero-lead">
+          Segunda maior metrópole da Coreia do Sul, Busan é o encontro perfeito entre montanhas esmeralda, praias douradas, templos milenares à beira-mar e uma energia cosmopolita inesquecível.
+        </p>
+        <div class="hero-actions">
+          <a href="#atracoes" class="btn btn-primary">Explorar Atrações</a>
+          <a href="#roteiro" class="btn btn-secondary">Ver Roteiro Recomendado</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>3.4M+</strong>
+            <span>Habitantes acolhedores</span>
+          </div>
+          <div class="stat-item">
+            <strong>7</strong>
+            <span>Praias de águas límpidas</span>
+          </div>
+          <div class="stat-item">
+            <strong>2h15</strong>
+            <span>De KTX a partir de Seul</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE BUSAN -->
+    <section class="about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=900&q=80" alt="Ponte Gwangan iluminada na Baía de Busan" loading="lazy">
+          <div class="about-badge">
+            <strong>Pontos Altos</strong>
+            <span>Capital do Cinema & Praias</span>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <span class="tagline">CONHEÇA A CIDADE</span>
+          <h2 class="section-title">A vibrante joia costeira do Oriente</h2>
+          <p class="section-subtitle" style="margin-bottom: 1.5rem;">
+            Localizada no extremo sudeste da Península Coreana, Busan combina o ritmo dinâmico de um porto global de classe mundial com o acolhimento caloroso de sua gente e uma natureza arrebatadora.
+          </p>
+          <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
+            Durante o verão, suas orlas ganham festivais de música e esportes náuticos. No outono, o renomado <em>Festival Internacional de Cinema de Busan (BIFF)</em> atrai artistas do mundo inteiro. A qualquer época, o aroma de frutos do mar frescos e caldos borbulhantes convida a uma imersão sensorial única.
+          </p>
+
+          <div class="about-features">
+            <div class="feature-box">
+              <span>🚇</span>
+              <h4>Fácil Acesso</h4>
+              <p>Metrô moderno com 6 linhas conectando praias, montanhas e o aeroporto.</p>
+            </div>
+            <div class="feature-box">
+              <span>🛡️</span>
+              <h4>Segurança Total</h4>
+              <p>Uma das cidades mais seguras e amigáveis para turistas no mundo.</p>
+            </div>
+            <div class="feature-box">
+              <span>⛩️</span>
+              <h4>Cultura Viva</h4>
+              <p>Templos budistas históricos esculpidos nas falésias rochosas do mar.</p>
+            </div>
+            <div class="feature-box">
+              <span>🥢</span>
+              <h4>Culinária Única</h4>
+              <p>Famosa por pratos icônicos que você só encontra aqui na costa sul.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ATRAÇÕES PRINCIPAIS -->
+    <section class="attractions" id="atracoes">
+      <div class="container">
+        <div class="section-head">
+          <span class="tagline">PONTOS TURÍSTICOS</span>
+          <h2 class="section-title">O que ver e viver em Busan</h2>
+          <p class="section-subtitle">Filtre por tipo de experiência e descubra os lugares que tornam esta cidade inigualável.</p>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">Todos os Locais</button>
+          <button class="filter-btn" data-filter="praia">Praias & Litoral</button>
+          <button class="filter-btn" data-filter="cultura">Templos & História</button>
+          <button class="filter-btn" data-filter="urbano">Mercados & Vida Urbana</button>
+          <button class="filter-btn" data-filter="natureza">Parques & Mirantes</button>
+        </div>
+
+        <div class="attractions-grid">
+          <!-- Card 1 -->
+          <article class="card-attraction" data-category="praia" data-full-info="A praia mais famosa da Coreia do Sul. Com 1,5 km de areia dourada, calçadão repleto de cafés e o charmoso calçadão de madeira da Ilha Dongbaek que leva à Casa APEC Nurimaru.">
+            <div class="card-thumb">
+              <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=700&q=80" alt="Praia de Haeundae em Busan" loading="lazy">
+              <span class="card-badge">Praia & Lazer</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Praia de Haeundae (해운대)</h3>
+              <p class="card-desc">O coração do verão sul-coreano com calçadão panorâmico, águas calmas e acesso à Ilha Dongbaekseom.</p>
+              <div class="card-meta">
+                <span>📍 Distrito de Haeundae</span>
+                <button class="btn btn-secondary open-details-btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Ver detalhes</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card-attraction" data-category="cultura" data-full-info="Construído em 1376, o Haedong Yonggungsa é um dos raros templos da Coreia erguidos diretamente nas rochas de frente para o mar aberto, oferecendo um nascer do sol espetacular.">
+            <div class="card-thumb">
+              <img src="https://images.unsplash.com/photo-1583797227225-4233106c5a2a?auto=format&fit=crop&w=700&q=80" alt="Templo Haedong Yonggungsa em Busan" loading="lazy">
+              <span class="card-badge">Histórico</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Templo Haedong Yonggungsa (해동 용궁사)</h3>
+              <p class="card-desc">Templo budista do século XIV erguido sobre falésias rochosas com vista panorâmica para o oceano.</p>
+              <div class="card-meta">
+                <span>📍 Gijang-gun</span>
+                <button class="btn btn-secondary open-details-btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Ver detalhes</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card-attraction" data-category="cultura" data-full-info="Apelidada carinhosamente de 'Santorini da Coreia' e 'Machu Picchu de Busan', é uma aldeia em degraus nas encostas da montanha, famosa por murais coloridos, cafés com vista e esculturas interativas.">
+            <div class="card-thumb">
+              <img src="https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=700&q=80" alt="Aldeia Cultural de Gamcheon" loading="lazy">
+              <span class="card-badge">Arte & Cor</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Aldeia Cultural de Gamcheon (감천문화마을)</h3>
+              <p class="card-desc">Bairro histórico em encosta com casas em tons pastel, ruelas labirínticas, mirantes e murais de arte urbana.</p>
+              <div class="card-meta">
+                <span>📍 Saha-gu</span>
+                <button class="btn btn-secondary open-details-btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Ver detalhes</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="card-attraction" data-category="urbano" data-full-info="O maior e mais famoso mercado de frutos do mar da Coreia. No térreo você escolhe os pescados vivos nos tanques e no segundo andar saboreia-os preparados na hora pelas lendárias 'Jagalchi Ajummas'.">
+            <div class="card-thumb">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=80" alt="Mercado Jagalchi de Peixes em Busan" loading="lazy">
+              <span class="card-badge">Gastronomia</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Mercado de Peixes Jagalchi (자갈치시장)</h3>
+              <p class="card-desc">O centro pulsante da cultura marítima coreana com peixes frescos e restaurantes tradicionais no porto.</p>
+              <div class="card-meta">
+                <span>📍 Jung-gu</span>
+                <button class="btn btn-secondary open-details-btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Ver detalhes</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="card-attraction" data-category="praia" data-full-info="Com 7,4 km de extensão, a Ponte Suspensa Gwangan é o cartão-postal moderno de Busan. À noite, milhares de lâmpadas de LED dançam ao ritmo de música no horizonte da Praia de Gwangalli.">
+            <div class="card-thumb">
+              <img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=700&q=80" alt="Ponte Gwangan e praia de Gwangalli" loading="lazy">
+              <span class="card-badge">Noite & Skyline</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Praia de Gwangalli & Ponte Gwangan (광안리)</h3>
+              <p class="card-desc">Famosa por cafés cosmopolitas com vista de frente para o mar e o espetáculo de luzes noturno da ponte.</p>
+              <div class="card-meta">
+                <span>📍 Suyeong-gu</span>
+                <button class="btn btn-secondary open-details-btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Ver detalhes</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="card-attraction" data-category="natureza" data-full-info="Parque natural situado na Ilha de Yeongdo, com falésias rochosas de até 250m caindo verticalmente no Mar do Japão (Mar do Leste), farol centenário e trilhas arborizadas por pinheiros.">
+            <div class="card-thumb">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80" alt="Falésias de Taejongdae em Busan" loading="lazy">
+              <span class="card-badge">Natureza Selvagem</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Parque Ecológico de Taejongdae (태종대)</h3>
+              <p class="card-desc">Falésias escarpadas espetaculares, farol histórico e vista aberta até a Ilha de Tsushima em dias claros.</p>
+              <div class="card-meta">
+                <span>📍 Yeongdo-gu</span>
+                <button class="btn btn-secondary open-details-btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Ver detalhes</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GASTRONOMIA TÍPICA -->
+    <section class="food" id="gastronomia">
+      <div class="container">
+        <div class="section-head">
+          <span class="tagline">SABORES DE BUSAN</span>
+          <h2 class="section-title">O que provar sem falta</h2>
+          <p class="section-subtitle">A culinária de Busan tem personalidade marcante, nascida da pesca no porto e das tradições regionais.</p>
+        </div>
+
+        <div class="food-grid">
+          <div class="food-card">
+            <div class="food-icon">🍲</div>
+            <div class="food-name-kr">돼지국밥</div>
+            <h3 class="food-title">Dwaeji Gukbap</h3>
+            <p class="food-desc">Sopa quente e reconfortante com caldo espesso de ossos de porco cozido lentamente por horas, servida com arroz, cebolinha e pasta fermentada.</p>
+          </div>
+
+          <div class="food-card">
+            <div class="food-icon">🥞</div>
+            <div class="food-name-kr">씨앗호떡</div>
+            <h3 class="food-title">Ssiat Hotteok</h3>
+            <p class="food-desc">Panqueca de rua frita e dourada recheada com açúcar mascavo, canela e uma generosa porção de sementes de girassol e abóbora crocantes.</p>
+          </div>
+
+          <div class="food-card">
+            <div class="food-icon">🍜</div>
+            <div class="food-name-kr">밀면</div>
+            <h3 class="food-title">Milmyeon</h3>
+            <p class="food-desc">Macarrão de trigo artesanal servido em caldo gelado com cubos de gelo, pepino refrescante, carne fatiada e molho picante doce.</p>
+          </div>
+
+          <div class="food-card">
+            <div class="food-icon">🐟</div>
+            <div class="food-name-kr">회 & 해산물</div>
+            <h3 class="food-title">Frutos do Mar Vivos (Hoe)</h3>
+            <p class="food-desc">Peixes, caranguejos-reais e vieiras frescas preparadas na hora, servidas no estilo sashimi coreano com folhas de perilla e gochujang.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROTEIRO RECOMENDADO -->
+    <section class="itinerary" id="roteiro">
+      <div class="container">
+        <div class="section-head">
+          <span class="tagline">PLANEJAMENTO</span>
+          <h2 class="section-title">Roteiro Perfeito: 3 Dias em Busan</h2>
+          <p class="section-subtitle">Um itinerário completo para aproveitar o melhor da cultura, litoral e gastronomia.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-step">
+            <div class="timeline-dot">1</div>
+            <div class="timeline-card">
+              <span class="timeline-tag">DIA 1 • HISTÓRIA, ARTE E MERCADOS</span>
+              <h3 class="timeline-title">Gamcheon, Jagalchi & Nampo-dong</h3>
+              <ul class="timeline-points">
+                <li>Manhã: Percorrer os becos coloridos da Aldeia Cultural de Gamcheon e tirar foto com o Pequeno Príncipe.</li>
+                <li>Almoço: Almoço tradicional de frutos do mar frescos no Mercado de Peixes Jagalchi.</li>
+                <li>Tarde: Passeio pela BIFF Square comendo o autêntico Ssiat Hotteok e subida à Torre de Busan no Parque Yongdusan.</li>
+                <li>Noite: Jantar com Dwaeji Gukbap no beco gastronômico de Seomyeon.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="timeline-dot">2</div>
+            <div class="timeline-card">
+              <span class="timeline-tag">DIA 2 • O TEMPLO NO MAR E AS PRAIAS</span>
+              <h3 class="timeline-title">Haedong Yonggungsa, Haeundae & Ilha Dongbaek</h3>
+              <ul class="timeline-points">
+                <li>Manhã: Contemplar o nascer do sol e a brisa budista no Templo Haedong Yonggungsa.</li>
+                <li>Tarde: Relaxar na areia da Praia de Haeundae e caminhar pelas trilhas arborizadas da Ilha Dongbaek.</li>
+                <li>Fim de tarde: Passeio no Blueline Park Sky Capsule (vagões coloridos sobre os trilhos costeiros).</li>
+                <li>Noite: Vista noturna da Ponte Gwangan iluminada nos pubs e lounges de Gwangalli.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="timeline-dot">3</div>
+            <div class="timeline-card">
+              <span class="timeline-tag">DIA 3 • NATUREZA E HORIZONTES SELVAGENS</span>
+              <h3 class="timeline-title">Taejongdae, Songdo & Skywalk</h3>
+              <ul class="timeline-points">
+                <li>Manhã: Subir o teleférico de Songdo Marine Cable Car com piso de vidro sobre as ondas.</li>
+                <li>Tarde: Trilha e trem panorâmico Danubi nas falésias e no farol centenário de Taejongdae.</li>
+                <li>Fim de tarde: Compras de cosméticos coreanos (K-Beauty) e lembranças nas galerias de Seomyeon.</li>
+                <li>Noite: Brinde de despedida com soju de Busan (Daesun) de frente para a orla.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALCULADORA DE VIAGEM & CONVERSOR -->
+    <section class="calculator" id="calculadora">
+      <div class="container">
+        <div class="section-head">
+          <span class="tagline">FINANÇAS DE VIAGEM</span>
+          <h2 class="section-title">Conversor de Moeda & Estimativa</h2>
+          <p class="section-subtitle">Calcule seus gastos em Won Sul-Coreano (KRW) para Real (BRL) em tempo real.</p>
+        </div>
+
+        <div class="calc-box">
+          <div class="calc-grid">
+            <div class="calc-inputs">
+              <div class="calc-group" style="margin-bottom: 1.5rem;">
+                <label for="inputKrw">Valor em Won Sul-Coreano (₩):</label>
+                <div class="calc-input-wrap">
+                  <span class="calc-symbol">₩</span>
+                  <input type="number" id="inputKrw" value="50000" step="1000" min="0" placeholder="Ex: 50.000">
+                </div>
+                <small style="color:var(--text-muted); font-size: 0.8rem;">Cotação de referência: ~250 ₩ = R$ 1,00</small>
+              </div>
+
+              <div class="calc-group">
+                <label for="travelStyle">Estilo de Viagem (Custo Diário Estimado):</label>
+                <select id="travelStyle" style="padding: 0.85rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); background: var(--bg-main); color: var(--text-main); font-weight: 600;">
+                  <option value="backpacker">Mochileiro / Econômico (₩ 50.000/dia)</option>
+                  <option value="moderate" selected>Moderado / Conforto (₩ 120.000/dia)</option>
+                  <option value="luxury">Luxo / Resorts (₩ 300.000/dia)</option>
+                </select>
+                <div id="styleEstimate" style="margin-top: 0.75rem; font-size: 0.9rem; padding: 0.75rem; background: var(--bg-muted); border-radius: var(--radius-sm);">
+                  Média: <strong>120.000 ₩ (R$ 480,00)/dia</strong><br><small style="color:var(--text-muted)">Hotel 3-4★ em Haeundae, cafés, restaurantes tradicionais</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="calc-result">
+              <span>Equivalente aproximado em Reais:</span>
+              <strong id="outputBrl">R$ 200,00</strong>
+              <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                Não inclui IOF de cartões internacionais. Os preços na Coreia do Sul são finais (sem gorjetas ou taxas ocultas).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DICAS ÚTEIS -->
+    <section class="tips" id="dicas">
+      <div class="container">
+        <div class="section-head">
+          <span class="tagline">INFORMAÇÕES PRÁTICAS</span>
+          <h2 class="section-title">O que você precisa saber antes de ir</h2>
+          <p class="section-subtitle">Orientações essenciais para uma viagem tranquila e sem imprevistos.</p>
+        </div>
+
+        <div class="tips-grid">
+          <div class="tip-card">
+            <span class="tip-icon">🚆</span>
+            <h3>Como Chegar de Seul</h3>
+            <p>O trem-bala KTX sai da Estação de Seul a cada 15-20 minutos e chega à Estação de Busan em cerca de 2h15. É rápido, pontual e muito confortável.</p>
+          </div>
+
+          <div class="tip-card">
+            <span class="tip-icon">💳</span>
+            <h3>Cartão T-Money / Wowpass</h3>
+            <p>Compre o cartão T-Money logo na chegada. Ele é recarregável e serve para pagar metrô, ônibus e pequenas compras em lojas de conveniência (CU, GS25, 7-Eleven).</p>
+          </div>
+
+          <div class="tip-card">
+            <span class="tip-icon">🌸</span>
+            <h3>Melhor Época para Visitar</h3>
+            <p><strong>Primavera (Abril-Maio):</strong> cerejeiras floridas e clima ameno. <strong>Verão (Julho-Agosto):</strong> praias cheias e festivais. <strong>Outono (Outubro-Novembro):</strong> folhagem dourada e o Festival de Cinema.</p>
+          </div>
+
+          <div class="tip-card">
+            <span class="tip-icon">🗺️</span>
+            <h3>Navegação & Mapas</h3>
+            <p>O Google Maps tem limitações na Coreia devido a leis locais de segurança. Baixe os aplicativos <strong>Naver Map</strong> ou <strong>KakaoMap</strong> (disponíveis em inglês) para rotas perfeitas a pé e de transporte.</p>
+          </div>
+
+          <div class="tip-card">
+            <span class="tip-icon">🔌</span>
+            <h3>Tomadas & Eletricidade</h3>
+            <p>A Coreia do Sul utiliza tomadas padrão Tipo C e F com voltagem de 220V e 60Hz (iguais aos plugues europeus de dois pinos redondos).</p>
+          </div>
+
+          <div class="tip-card">
+            <span class="tip-icon">🗣️</span>
+            <h3>Idioma & Comunicação</h3>
+            <p>O coreano é a língua oficial. Palavras úteis: <em>Annyeonghaseyo</em> (Olá), <em>Kamsahamnida</em> (Obrigado). Aplicativos como Papago traduzem cardápios por foto instantaneamente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL DE ATRAÇÃO -->
+  <div id="attractionModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.65); backdrop-filter:blur(6px); z-index:999; align-items:center; justify-content:center; padding:1.5rem;" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div style="background:var(--bg-surface); max-width:540px; width:100%; border-radius:var(--radius-lg); padding:2rem; box-shadow:var(--shadow-lg); border:1px solid var(--border-color); position:relative;">
+      <button id="modalClose" style="position:absolute; top:1rem; right:1.2rem; background:none; border:none; font-size:1.6rem; cursor:pointer; color:var(--text-main);" aria-label="Fechar">✕</button>
+      <h3 id="modalTitle" style="font-size:1.4rem; margin-bottom:1rem; color:var(--text-main);"></h3>
+      <p id="modalDesc" style="color:var(--text-muted); line-height:1.7; font-size:0.95rem; margin-bottom:1.5rem;"></p>
+      <button class="btn btn-primary" onclick="document.getElementById('attractionModal').style.display='none'" style="width:100%;">Fechar Informações</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Visit Busan (부산)</h3>
+          <p>
+            Portal turístico e cultural independente dedicado a promover a história, as praias e a fascinante gastronomia de Busan para viajantes de língua portuguesa.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#sobre">Sobre Busan</a></li>
+            <li><a href="#atracoes">Pontos Turísticos</a></li>
+            <li><a href="#gastronomia">Culinária Típica</a></li>
+            <li><a href="#roteiro">Roteiro 3 Dias</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Recursos</h4>
+          <ul class="footer-links">
+            <li><a href="#calculadora">Conversor de Moeda</a></li>
+            <li><a href="#dicas">Dicas Essenciais</a></li>
+            <li><a href="https://github.com/jvcv2807/busan-turismo" target="_blank" rel="noopener">Código no GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Visit Busan • Desenvolvido com HTML5, CSS3 &amp; JavaScript Moderno por <a href="https://github.com/jvcv2807" target="_blank" rel="noopener">João Vitor (jvcv2807)</a>
+        </div>
+        <div>
+          Parte do portfólio oficial de soluções digitais.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
